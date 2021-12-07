@@ -1,5 +1,4 @@
 const prompt = require('prompt-sync')({ sigint: true });
-
 const n1 = Number(prompt("Enter a number: "));
 
 if (n1 >= 0 && Number.isInteger(n1)) {
